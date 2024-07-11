@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import TaskList from './components/TaskList';
 import AddTask from './components/AddTask';
 import EditTask from './components/EditTask';
+import './App.css';
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
@@ -41,3 +42,5 @@ const App = () => {
 };
 
 export default App;
+
+

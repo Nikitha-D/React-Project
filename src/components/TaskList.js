@@ -1,15 +1,15 @@
 // src/components/TaskList.js
 import React from 'react';
-import TaskItem from './TaskItem';
+import Task from './Task';
 
-const TaskList = ({ tasks, deleteTask, editTask }) => {
+function TaskList({ tasks }) {
   return (
     <div>
-      {tasks.map(task => (
-        <TaskItem key={task.id} task={task} deleteTask={deleteTask} editTask={editTask} />
+      {tasks.map((task, index) => (
+        <Task key={index} task={task} />
       ))}
     </div>
   );
-};
+}
 
 export default TaskList;

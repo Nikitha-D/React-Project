@@ -1,0 +1,33 @@
+/* src/components/Task.css */
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task span {
+    flex-grow: 1;
+  }
+  
+  .task button {
+    margin-right: 10px;
+    background-color: #007bff;
+  }
+  
+  .task button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task button:last-of-type {
+    background-color: #dc3545;
+  }
+  
+  .task button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  
