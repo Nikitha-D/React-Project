@@ -1,8 +1,11 @@
 /* src/App.css */
+
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  background: linear-gradient(to right, #ff7e57, #feb47b);
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
   padding: 20px;
   margin: 0;
 }
@@ -19,7 +22,6 @@ form {
   justify-content: center;
   margin-bottom: 20px;
 }
-
 
 input {
   padding: 10px;

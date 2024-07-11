@@ -21,4 +21,5 @@ const EditTask = ({ task, updateTask }) => {
   );
 };
 
-export default EditTask;
+export default EditTask;          
+
